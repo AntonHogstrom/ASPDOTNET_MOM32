@@ -1,0 +1,64 @@
+@model IEnumerable<EF_MOM_3_2.Models.CD>
+
+@{
+    ViewData["Title"] = "Albums";
+}
+
+<h1>Albums</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<form id="searchForm" asp-controller="CD" asp-action="index">
+    <label>CD name:</label>
+    <input type="text" name="search" />
+    <input type="submit" value="Search" />
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CDId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Album)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artist)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Customer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateLent)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CDId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Album)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Artist.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Customer.Username)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateLent)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.CDId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.CDId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.CDId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

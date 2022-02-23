@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Entity Framework - </title>
+    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <a asp-controller="CD" asp-action="Index">
+            <picture>
+                <img src="~/Images/dotnet.png" alt="Entity Framework Icon" />
+            </picture>
+        </a>
+        <nav id="mainNav">
+            <ul>
+                <li>
+                    <a asp-controller="CD" asp-action="Index">CDs</a>
+                </li>
+                <li>
+                    <a asp-controller="Artist" asp-action="Index">Artists</a>
+                </li>
+                <li>
+                    <a asp-controller="Customer" asp-action="Index">Customers</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+        <ul>
+            <li>Anton Högström</li>
+            <li>Entity Framework</li>
+            <li>DT191G</li>
+        </ul>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+

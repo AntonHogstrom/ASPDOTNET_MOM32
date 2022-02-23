@@ -1,0 +1,96 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EF_MOM_3_2
+build_property.RootNamespace = EF_MOM_3_2
+build_property.ProjectDir = /Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Artist/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aXN0L0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Artist/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aXN0L0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Artist/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aXN0L0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Artist/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aXN0L0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Artist/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aXN0L0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/CD/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ0QvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/CD/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ0QvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/CD/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ0QvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/CD/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ0QvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/CD/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ0QvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Customer/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Customer/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Customer/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Customer/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Customer/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3VzdG9tZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/Anton/Projects/EF_MOM_3_2/EF_MOM_3_2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-68pgwuvfdj
